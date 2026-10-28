@@ -1,0 +1,40 @@
+{
+  "assembly_version": 1,
+  "dataset_id": "lpBotMacr1",
+  "scientific_name": "Bothriochloa macra",
+  "taxon_id": 330581,
+  "busco_odb10_dataset_name": "poales",
+  "busco_odb12_dataset_name": "poales",
+  "ncbi_class": "Magnoliopsida",
+  "find_plastid": true,
+  "hic_motif": "GATC,GANTC,CTNAG,TTAA",
+  "mitochondrial_genetic_code_id": 1,
+  "mitohifi_reference_species": "Zea mays subsp. mays",
+  "oatk_hmm_name": "magnoliopsida",
+  "augustus_dataset_name": "tiberius_model_cfg:angiosperms.yaml",
+  "genetic_code_id": 1,
+  "assembly_id": "f5eaab41-dc52-4455-ae6d-d5b3f6fb7007",
+  "read_files": [
+    {
+      "name": "bpa-grasslands-pacbio-hifi-371856-m84073_260309_034806_s3",
+      "data_type": "PACBIO_SMRT",
+      "single_end": [
+        {
+          "url": "https://data.bioplatforms.com/dataset/bpa-grasslands-pacbio-hifi-371856-m84073_260309_034806_s3/resource/a74a3cef6920f37c182c2a4fca853045/download/369710_LibID371856_AG_AGRF_m84073_260309_034806_s3.ccs.bam",
+          "md5sum": "a74a3cef6920f37c182c2a4fca853045"
+        }
+      ]
+    },
+    {
+      "name": "bpa-grasslands-pacbio-hifi-372616-m84073_260508_063758_s2",
+      "data_type": "PACBIO_SMRT",
+      "base_url": "https://downloads-qcif.bioplatforms.com/bpa/grasslands/pacbio-hifi/BPAOPS-2079/20260512_AG_AGRF_CAGRF26030353_m84073_260508_063758_s2/",
+      "single_end": [
+        {
+          "url": "https://data.bioplatforms.com/dataset/bpa-grasslands-pacbio-hifi-372616-m84073_260508_063758_s2/resource/9b28a10e99500bab1d01bc35d3b4132f/download/369710_LibID372616_AG_AGRF_m84073_260508_063758_s2.ccs.bam",
+          "md5sum": "9b28a10e99500bab1d01bc35d3b4132f"
+        }
+      ]
+    }
+  ]
+}

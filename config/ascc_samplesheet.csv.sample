@@ -1,0 +1,4 @@
+sample,assembly_type,assembly_file
+lpBotMacr1.1,PRIMARY,${PWD}/results/genomeassembly/lpBotMacr1.1/lpBotMacr1.1.pacbio_hifi.purged/purging/asm.purged.fa.gz
+lpBotMacr1.1,HAPLO,${PWD}/results/genomeassembly/lpBotMacr1.1/lpBotMacr1.1.pacbio_hifi.purged/purging/asm.htigs.all.fa.gz
+lpBotMacr1.1,MITO,${PWD}/results/genomeassembly/lpBotMacr1.1/lpBotMacr1.1.pacbio_hifi.purged/mito/final_mitogenome.fasta

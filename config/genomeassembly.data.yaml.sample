@@ -1,0 +1,6 @@
+
+- id: lpBotMacr1
+  platform: pacbio_hifi
+  reads:
+    - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-grasslands-pacbio-hifi-371856-m84073_260309_034806_s3.fastq.gz
+    - ${PWD}/results/qc/reads/PACBIO_SMRT/bpa-grasslands-pacbio-hifi-372616-m84073_260508_063758_s2.fastq.gz

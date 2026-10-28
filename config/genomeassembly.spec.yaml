@@ -1,0 +1,25 @@
+
+- id: lpBotMacr1.1.pacbio_hifi.purged
+  assembler: "hifiasm"
+  long_read_dataset: lpBotMacr1
+  long_read_platform: pacbio_hifi
+  purge: true
+  busco_lineage: poales_odb12
+  find_mito: true
+  find_plastid: true
+  mitohifi_mito_genetic_code: 1
+  mitohifi_reference_species: "Zea mays subsp. mays"
+- id: lpBotMacr1.1.oatk
+  assembler: "oatk"
+  long_read_dataset: lpBotMacr1
+  long_read_platform: pacbio_hifi
+  busco_lineage: poales_odb12
+  oatk_mito_hmm: https://github.com/c-zhou/OatkDB/raw/main/v20230921/magnoliopsida_mito.fam
+  oatk_plastid_hmm: https://github.com/c-zhou/OatkDB/raw/main/v20230921/magnoliopsida_pltd.fam
+- id: lpBotMacr1.1.mitohifi
+  assembler: "mitohifi"
+  long_read_dataset: lpBotMacr1
+  long_read_platform: pacbio_hifi
+  busco_lineage: poales_odb12
+  mitohifi_mito_genetic_code: 1
+  mitohifi_reference_species: "Zea mays subsp. mays"
